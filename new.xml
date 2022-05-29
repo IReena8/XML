@@ -1,0 +1,6 @@
+<Person is-open="true">
+	<fullname>Yaryza Iryna</fullname>
+	<ade>43</ade>
+	<number_of_pets>0</number_of_pets>
+	<future_desired_selery>500 €</future_desired_selery>
+</Person>				
