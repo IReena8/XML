@@ -1,0 +1,47 @@
+﻿Bug Report
+
+
+Summary
+	User can't authorize with valid data
+	Project
+	https://redemo.zendo.cloud/
+	Pre-conditionals
+	The user is registered, he went from the main page to the authorization page
+	Application component
+	Field of Authorization
+	Version
+	1
+	Environment
+	Chrome v.96.0.4664.110 (Windows 10 Pro 21H1)
+	Severity:
+·   S1 Blocker
+·   S2 Critical
+·   S3 Major
+·   S4 Minor
+·   S5 Trivial
+	S2
+	Priority:
+·   P1 High
+·   P2 Medium
+·   P3 Low
+	P1
+	Status
+	New
+	Author
+	Yariza Iryna
+	Assigned To
+	Ivanov Ivan
+	Steps to Reproduce
+	1. Open site https://redemo.zendo.cloud/site/login
+2. Enter email in the field Login or Email with valid data
+3. Enter password in field Password with valid data
+4. Press to the button Enter
+	Actual result
+	A warning message appeared: Invalid username or password, transition to the main page is not reproduced
+
+
+
+  
+
+	Expected result
+	User can authorize with all valid data
