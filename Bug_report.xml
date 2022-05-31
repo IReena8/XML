@@ -1,0 +1,21 @@
+<Bug_Report>
+	<Summary>User can't authorize with valid data</Summary>
+	<Project>https://redemo.zendo.cloud/</Project>
+	<Pre-conditionals>The user is registered, he went from the main page to the authorization page</Pre-conditionals>
+	<Application_component>Field of Authorization</Application_component>
+	<Version>1</Version>
+	<Environment>Chrome v.96.0.4664.110 (Windows 10 Pro 21H1)</Environment>
+	<Severity>S2 Critical</Severity>
+	<Priority>P1 High</Priority>
+	<Status>New</Status>
+	<Author>Yaryza Iryna</Author>
+	<Assigned_To>Ivanov Ivan</Assigned_To>
+	<Steps_to_Reproduce>
+		<1>Open site https://redemo.zendo.cloud/site/login</1>
+		<2>Enter email in the field Login or Email with valid data</2>
+		<3>Enter password in field Password with valid data</3>
+		<4>Press to the button Enter</Steps_to_Reproduce</4>
+	</Steps_to_Reproduce>
+	<Actual_result>A warning message appeared: Invalid username or password, transition to the main page is not reproduced</Actual_result>
+	<Expected_result>User can authorize with all valid data</Expected_result>
+</Bug_Report>
